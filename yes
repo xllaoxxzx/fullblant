@@ -1,18 +1,6 @@
 -- // Services
 local Players = game:GetService("Players")
 
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
---
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Welcome";
- Text = "StreamProof By Flood দ";
- Icon = "";
- Duration = 9999999999;
- Button1 = "ok";
- Button2 = "ok";
- Callback = NotificationBindable;
-})
 
 -- // Vars
 local LocalPlayer = Players.LocalPlayer
